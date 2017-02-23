@@ -161,6 +161,8 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rollbar (2.14.0)
+      multi_json
     sass (3.4.22)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -225,6 +227,7 @@ DEPENDENCIES
   puma (~> 3.0)
   qiniu-rs
   rails (~> 5.0.0)
+  rollbar
   sass-rails (~> 5.0)
   simple_form
   sqlite3
