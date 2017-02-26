@@ -40,6 +40,8 @@ gem 'carrierwave-qiniu'
 gem 'qiniu-rs'
 gem 'figaro'
 gem 'rollbar'
+gem 'qiniu', '~> 6.8.1'
+
 
 gem 'letter_opener', group: :development
 
